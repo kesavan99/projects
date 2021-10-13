@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link rel="stylesheet" href="notes.css">
+<script src="notes.js"></script>
+</head>
+<body>
+<div class="container active">
+<header>
+<button id="add" title="Add new note">
+Add new Note
+</button>
+<h3>Notes</h3>
+<div class="buttons">
+<button id="removenote" title="Delete note">
+Delete
+</button>
+<button id="save" title="Save note">
+Save
+</button>
+</div>
+</header>
+<aside>
+<span id="toggle">
+<i class="fi fi-angle-dobule-left"></i>
+</span>
+<div class="search-box">
+<i class="fi fi-search"></i>
+
+<input type="text" id="search" placeholder="Search">
+
+</div>
+<ul id="notelist">
+</ul>
+</aside>
+<main>
+<textarea name="noteinput" id="noteinput" cols="50" rows="50" 
+placeholder="Create new note"></textarea>
+</main>
+</div>
+</body>
+</html>
